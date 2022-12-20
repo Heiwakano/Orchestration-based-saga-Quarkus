@@ -3,6 +3,18 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service-api-messaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service-api-messaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service-api-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service-api-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-api-messaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-api-messaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-api-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-api-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f02bf1a4-9d36-49f9-a91b-e3b24071afa0" name="Changes" comment="" />
+    <list default="true" id="f02bf1a4-9d36-49f9-a91b-e3b24071afa0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/customer-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/.mvn/wrapper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/docker/Dockerfile.jvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/docker/Dockerfile.legacy-jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/docker/Dockerfile.native" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/docker/Dockerfile.native-micro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/CustomerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/ExampleResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/domain/CustomerCreditLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/service/CustomerCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/web/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/META-INF/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.mvn/wrapper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/Dockerfile.jvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/Dockerfile.legacy-jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/Dockerfile.native" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/Dockerfile.native-micro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/META-INF/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service-api-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service-api-messaging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service-api-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service-api-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service-api-web/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/webapi/CreateCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service-api-web/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/webapi/CreateCustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-api-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-api-messaging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-api-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-api-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-api-web/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/orders/webapi/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-api-web/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/orders/webapi/CreateOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2J7mmEkhnAR0OnKeIb46h2jWPah" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +83,185 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "M:/Quarkus/saga-orchestration/order-service",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "2cb6b1bc3da825173e2c6d1e97cb4d30"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Quarkus\saga-orchestration\order-service-api-web\src\main\java\io\eventuate\examples\tram\sagas\ordersandcustomers\orders\webapi" />
+      <recent name="M:\Quarkus\saga-orchestration\order-service-api-messaging\src\main\java\io\eventuate\examples\tram\sagas\ordersandcustomers\messaging" />
+      <recent name="M:\Quarkus\saga-orchestration\customer-service-api-web\src\main\java\io\eventuate\examples\tram\sagas\ordersandcustomers\customers\webapi" />
+      <recent name="M:\Quarkus\saga-orchestration\customer-service-api-messaging\src\main\java" />
+      <recent name="M:\Quarkus\saga-orchestration\common\src\main\java\io\eventuate\examples\tram\sagas\ordersandcustomers\commondomain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Quarkus\saga-orchestration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="QuarkusRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose-postgres.yml: Compose Deployment">
+    <configuration name="common" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="common" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/common" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="customer-service" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="customer-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/customer-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="order-service-api-messaging" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="order-service-api-messaging" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/order-service-api-messaging" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="order-service" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="order-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/order-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose-postgres.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose-postgres.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-postgres.yml.cdc-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="cdc-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose-postgres.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose-postgres.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose-postgres.yml.cdc-service: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,7 +270,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671437653409</updated>
+      <workItem from="1671437654990" duration="6090000" />
+      <workItem from="1671501494144" duration="14447000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/orders/web/OrderController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/orders/service/OrderSagaService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/customer-service/src/main/java/io/eventuate/examples/tram/sagas/ordersandcustomers/customers/service/CustomerService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

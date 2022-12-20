@@ -22,4 +22,12 @@ public class CreateOrderRequest {
   public Long getCustomerId() {
     return customerId;
   }
+
+  public void setOrderTotal(Money orderTotal) {
+    this.orderTotal = orderTotal;
+  }
+
+  public void setCustomerId(Long customerId) {
+    this.customerId = customerId;
+  }
 }

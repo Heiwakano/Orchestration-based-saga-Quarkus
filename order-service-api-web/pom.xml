@@ -7,6 +7,14 @@
     <groupId>io.eventuate.examples.tram.sagas.ordersandcustomers.orders.webapi</groupId>
     <artifactId>order-service-api-web</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>io.eventuate.examples.tram.sagas.ordersandcustomers.commondomain</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

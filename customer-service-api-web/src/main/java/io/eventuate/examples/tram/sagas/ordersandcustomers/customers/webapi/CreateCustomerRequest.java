@@ -23,4 +23,12 @@ public class CreateCustomerRequest {
   public Money getCreditLimit() {
     return creditLimit;
   }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setCreditLimit(Money creditLimit) {
+    this.creditLimit = creditLimit;
+  }
 }
